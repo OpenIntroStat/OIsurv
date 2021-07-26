@@ -6,7 +6,6 @@ confBands <- function(
   tL,
   tU
 ){
-  confLevel <- match.arg(confLevel)
   confType <- match.arg(confType)
   type <- match.arg(type)
   fit  <- survfit(x ~ 1)
